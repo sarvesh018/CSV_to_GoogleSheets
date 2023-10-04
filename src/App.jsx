@@ -1,16 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 
-import DropFile from './components/dropFile'
+import UploadOrDropFile from './components/UploadOrDropFile'
 
 function App() {
-  const [count, setCount] = useState(0)
-  const handleSubmit  = () =>{
-    setCount(count+1);
-  } 
+  
   return (
     <>
-      <DropFile/>
+      <UploadOrDropFile/>
     </>
   )
 }
